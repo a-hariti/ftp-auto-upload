@@ -1,0 +1,15 @@
+# lines preceded with a # are ignored, the number of spaces between words is not important
+# the following lines represents files and their corresponding upload info
+# they have the format:
+
+# filname username host port password source_folder destination_folder
+# the destination_folder should use forward (/) slashes instead of (\) usually used for windows as folder seperators
+
+# please make sure file names don't have spaces in them
+
+file1.xls root 207.151.201.205 22 Wh7yV4jxxxxaH /some/source/folder1 /some/abosolute/destination/folder
+file2.xls    root    107.152.201.105 22 password /some/source/folder2 /some/abosolute/destination/folder2
+file3.xls root 207.151.201.205 22   Wh7yVxxxxapaH /some/source/folder3 /some/abosolute/destination/folder3
+file4.xls root 207.151.201.205 22 Wh7yV4jxxxxaH /some/source/folder4 /some/abosolute/destination/folder4
+file5.xls root 207.151.201.205    22 Wh7yxxxxxxxxH /some/source/folder5 /some/abosolute/destination/folder
+file6.xlsx root 207.114.221.105    22 Wh7xxxxxxxxaH /some/source/folder6 /some/abosolute/destination/folder
