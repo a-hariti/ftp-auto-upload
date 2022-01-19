@@ -58,7 +58,7 @@ function getFiles(configFile) {
 
 function createWatchHandler(sourceDir, files) {
   return (event, fileName) => {
-    console.log(event, " ---> ", file);
+    console.log(event, " ---> ", fileName);
     if (
       event == "change"
       // optionally filter for a file extension
